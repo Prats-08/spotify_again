@@ -154,7 +154,21 @@ body{
       font-weight: 600;
       width: 8vw;
 }
-
+#page2{
+  position: absolute;
+  color: white;
+  width: 60rem;
+  margin-top: 49%;
+  margin-left: 25%;
+  
+}
+#btn1{
+  background-color: rgba(0, 0, 0, 0);
+  color: #eee;
+  font-size: 20px;
+  border: 0px;
+  margin: 2%;
+}
 
 
 /* music player */

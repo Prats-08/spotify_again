@@ -51,17 +51,17 @@ const Dashboard = () =>
               <div className="music-player">
                 <Music_Player/>
               </div>
-              
-            </div>  
-            <div id="page">
+              <div id="page2">
           {pageArr.map((e) => {
             return (
-              <button id="btn" onClick={() => handlePage(e)}>
+              <button id="btn1" onClick={() => handlePage(e)}>
                 {e}
               </button>
             );
           })}
-        </div>           
+        </div> 
+            </div>  
+                      
         </div>
    </Layout>
   )
