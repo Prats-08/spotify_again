@@ -69,16 +69,17 @@ body{
 .music-card-list{
   z-index: -2;
     position: absolute;
-    top: 1%;
+    top: 3%;
     left: 7%;
-    height: 100vh;
-    width: 91vw;
+    height: 112vh;
+    width: 92%;
     background-color: rgb(21, 21, 21);
     display: flex;
     flex-direction: column;  
     justify-content: left;
-     gap: 1rem;
-  padding: 1rem;
+    gap: .6rem;
+    padding: 1rem;
+    border-radius: 20px;
 
 }
 
@@ -87,17 +88,18 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2rem;
+    padding-left:1% ;
 }
 .music-card{
-    background-color: whitesmoke;
-    width: 20% ;
-    height: 40vh;
+    width: 17rem ;
+    height: 41vh;
     display: flex;
     flex-direction: column;
     background-color: rgb(31, 31, 31);
     color: white;
+    margin-left: 1%;
 }
-img{
+.img{
     width:  80% ;
     height: 60%;
     margin: auto;
@@ -110,7 +112,7 @@ img{
 }
 .music-card .name{
     font-weight: 800;
-    color: white;
+    color: rgb(254, 254, 254);
 }
 .play-button{
     position: relative;
@@ -132,9 +134,10 @@ img{
     background-color: rgb(50, 50, 50);
 }
 .heading1{
-    font-size: 20px;
+    font-size: 50px;
     color: white;
     font-weight: 700;
+    margin-left: 2%;
 }
 .navbar-title{
     display: flex;

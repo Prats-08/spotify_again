@@ -12,16 +12,16 @@ const Cardmusic = (props) => {
         setdis("hidden")
         }
   return (
-    <div className="music-card" onMouseOver={displayPlay}  onMouseOut={notPlay}>
+    <div className="music-card1" onMouseOver={displayPlay}  onMouseOut={notPlay}>
         
-            <img  className='imagemusic' src={props.image} alt="" />
-            <div className="name">
+            <img  className='imagemusic1' src={props.image} alt="" />
+            <div className="name1">
                 {props.name} 
             </div>
-            <div className="about">
+            <div className="about1">
                 {props.artist}
             </div>
-            <div className="play-button" style={{visibility:dis}}>
+            <div className="play-button1" style={{visibility:dis}}>
             <FaPlay id='play-icon'/>
             </div>
             </div> 

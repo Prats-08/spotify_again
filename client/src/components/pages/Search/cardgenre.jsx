@@ -12,7 +12,7 @@ function Cardgenre(props ) {
             <div className="info">
                     <div className="title">{props.name}</div>
             </div>
-            <div className="image">
+            <div className="image1">
                 <img src={props.image} className="imagegenre"></img>
             </div>
             

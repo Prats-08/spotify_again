@@ -12,7 +12,7 @@ function Genre() {
   const params = useParams();
   const name = params.name;
   let i = 1;
-  while (i <= Math.ceil(arr.length / 10)) {
+  while (i <= Math.ceil(arr.length / 8)) {
     pageArr.push(i);
     i++;
   }
@@ -25,22 +25,22 @@ function Genre() {
       .then((data) => {
         const arr1 = data.filter((el) => el.genre.includes(name.toLowerCase()));
         setArr(arr1);
-        const end = page * 10;
-        const start = (page - 1) * 10;
+        const end = page * 8;
+        const start = (page - 1) * 8;
         const new_arr = arr1.slice(start, end);
         setNewArr(new_arr);
         if(name==="Romantic"){
-          setcol("rgb(235, 73, 181),rgb(235, 73, 181,0.8)")
+          setcol("rgb(235, 73, 181),rgb(255, 255, 255,0.8)")
         }
         else if(name==="kpop"){
-          setcol("rgb(122, 0, 245),rgb(122, 0, 245,0.1)")
+          setcol("rgb(122, 0, 245),rgb(255, 255, 255,0.8)")
         }
         else if(name=="Devotional"){
-          setcol("rgb(245, 102, 0),rgb(245, 102, 0,0.1)")
+          setcol("rgb(245, 102, 0),rgb(255, 255, 255,0.8)")
         }else if(name==="Travel"){
-          setcol("rgb(33, 181, 62),rgb(33, 181, 62,0.1)")
+          setcol("rgb(33, 181, 62),rgb(255, 255, 255,0.8)")
         }else{
-          setcol("rgb(122, 51, 15),rgb(122, 51, 15,0.1)")
+          setcol("rgb(122, 51, 15),rgb(255, 255, 255,0.1)")
         }
       });
   };
@@ -54,7 +54,7 @@ function Genre() {
   console.log(newarr);
   return (
     <Layout>
-    <div style={{background:`linear-gradient(${col})`,height:"80rem"}} className="genre-songs">
+    <div style={{background:`linear-gradient(${col})`,height:"40rem",zIndex:"-2"}} className="genre-songs">
       <div className="namegenre" >{name}</div>
       <div className="genrebox">
         <div className="genre">

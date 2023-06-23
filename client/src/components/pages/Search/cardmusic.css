@@ -1,10 +1,10 @@
-#button{
+#button1{
     font-size: 2rem;
      cursor: pointer;
      margin-left: 4rem;
      
  }
- .music-card{
+ .music-card1{
      background-color: whitesmoke;
      width: 20% ;
      height: 40vh;
@@ -16,7 +16,7 @@
      border-radius: 5px;
      margin-left: 4%;
  }
- .imagemusic{
+ .imagemusic1{
      width:  13rem;
      height: 13rem;
      margin: auto;
@@ -25,15 +25,15 @@
      object-fit: cover;
      box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 10px 25px 0 rgba(0, 0, 0, 0.19);
  }
- .music-card .name , .music-card .about{
+ .music-card1 .name1 , .music-card1 .about1{
      margin-left: 1rem;
      color: grey;
  }
- .music-card .name{
+ .music-card1 .name1{
      font-weight: 800;
      color: white;
  }
- .play-button{
+ .play-button1{
      position: relative;
      background-color: #1DB954;
      padding: .7rem;
@@ -50,9 +50,9 @@
      color: black;
  }
  
- .music-card:hover{
+ .music-card1:hover{
      background-color: rgb(50, 50, 50);
  }
- .name{
+ .name1{
     margin-top: 5%;
  }

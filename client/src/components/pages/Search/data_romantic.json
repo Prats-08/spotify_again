@@ -887,28 +887,33 @@
     {
         "id": 1,
         "name": "Romantic",
-        "image":"https://hips.hearstapps.com/hmg-prod/images/best-valentines-day-songs-1608325046.jpg"
+        "image":"https://hips.hearstapps.com/hmg-prod/images/best-valentines-day-songs-1608325046.jpg",
+        "color":"rgb(235, 73, 181)"
     },
     {
         "id": 2,
         "name": "Indie",
-        "image":"https://i.etsystatic.com/14383098/r/il/407746/5008830435/il_300x300.5008830435_oumb.jpg"
+        "image":"https://i.etsystatic.com/14383098/r/il/407746/5008830435/il_300x300.5008830435_oumb.jpg",
+        "color":"rgb(122, 51, 15)"
 
     },
     {
         "id": 3,
         "name": "Kpop",
-        "image":"https://cdns-images.dzcdn.net/images/cover/bd11c07727b6dee70976816a23d39ddf/264x264.jpg"
+        "image":"https://cdns-images.dzcdn.net/images/cover/bd11c07727b6dee70976816a23d39ddf/264x264.jpg",
+        "color":"rgb(122, 0, 245)"
     },
     {
         "id": 4,
         "name": "Travel",
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJJ5WDGzZptQ1xcRjV3ybnXIWDt3K_rx_Mx02Z2HQnOw&usqp=CAU&ec=48665699"
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJJ5WDGzZptQ1xcRjV3ybnXIWDt3K_rx_Mx02Z2HQnOw&usqp=CAU&ec=48665699",
+        "color":"rgb(33, 181, 62)"
     },
     {
         "id": 5,
         "name": "Devotional",
-        "image":"https://cdn.inprnt.com/thumbs/67/ba/67ba14450aaa320675fd42e4bb2ef4cf.jpg"
+        "image":"https://cdn.inprnt.com/thumbs/67/ba/67ba14450aaa320675fd42e4bb2ef4cf.jpg",
+        "color":"#E13300"
     }
 
 ]}
