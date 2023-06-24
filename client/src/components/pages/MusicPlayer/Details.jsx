@@ -1,5 +1,16 @@
-// import React from "react";
-
+import React from "react";
+function Details() {
+    return (
+      <div className="c-player--details">
+        <div className="details-img">
+          <img src="https://pbs.twimg.com/media/FYIwVwIUIAEVfnn.jpg" alt="" />
+        </div>
+        <div className="tittle"><div className="details-title">title</div>
+        <div className="details-artist">artist</div>
+        </div>
+      </div>
+    );
+  }
 // function Details(props) {
 //   return (
 //     <div className="c-player--details">
@@ -12,4 +23,4 @@
 //   );
 // }
 
-// export default Details;
+export default Details;

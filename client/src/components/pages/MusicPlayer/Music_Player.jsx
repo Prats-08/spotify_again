@@ -23,13 +23,9 @@ function Music_Player() {
   // currentSongIndex, PlayLists.length
   return (
     <>
-    </>
-      // <Player
-      //   currentSongIndex={currentSongIndex}
-      //   setCurrentSongIndex={setCurrentSongIndex}
-      //   nextSongIndex={nextSongIndex}
-      //   PlayLists={PlayLists}
-      // />
+   
+      <Player />
+       </>
   
 
   );
